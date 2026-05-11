@@ -50,7 +50,7 @@
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/yourname/ClipboardManager.git
+git clone https://github.com/MJ-Wu/ClipboardManager.git
 cd ClipboardManager
 
 # 2. 用 Xcode 打开
