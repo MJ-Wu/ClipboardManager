@@ -1,4 +1,4 @@
-# 📋 CtrlC_CtrlV
+# 📋 ClipboardManager
 
 > 一个轻量的 macOS 菜单栏剪贴板历史管理工具，自动记录最近 10 条复制内容，随时取用。
 
@@ -61,11 +61,11 @@
 
 ```bash
 # 1. 克隆仓库
-git clone https://github.com/yourname/CtrlC_CtrlV.git
-cd CtrlC_CtrlV
+git clone https://github.com/yourname/ClipboardManager.git
+cd ClipboardManager
 
 # 2. 用 Xcode 打开
-open CtrlC_CtrlV.xcodeproj
+open ClipboardManager.xcodeproj
 
 # 3. 选择 My Mac 为目标，点击 ▶ 运行
 ```
@@ -77,7 +77,7 @@ open CtrlC_CtrlV.xcodeproj
 ## 📁 项目结构
 
 ```
-CtrlC_CtrlV/
+ClipboardManager/
 ├── ClipboardManagerApp.swift   # App 入口
 ├── AppDelegate.swift           # 菜单栏图标 + Popover 管理
 ├── ClipboardMonitor.swift      # 定时轮询 NSPasteboard（0.8s）
@@ -107,4 +107,4 @@ CtrlC_CtrlV/
 
 ## 📄 License
 
-[MIT License](LICENSE) © 2025 yourname
+[MIT License](LICENSE) © 2025 MJ-Wu
